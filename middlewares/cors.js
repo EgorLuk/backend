@@ -1,11 +1,14 @@
 // The URL of your local server, frontend and backend domain is written in allowedCors
+// const allowedCors = [
+// 	'http://localhost:3000',
+// 	'http://localhost:3001',
+// 	'http://pindie-backend-orbit.nomoredomainswork.ru',
+// 	'https://pindie-backend-orbit.nomoredomainswork.ru',
+// 	'http://pindie-frontend-orbit.nomoredomainswork.ru',
+// 	'https://pindie-frontend-orbit.nomoredomainswork.ru'
+// ];
 const allowedCors = [
-	'http://localhost:3000',
-	'http://localhost:3001',
-	'http://pindie-backend-orbit.nomoredomainswork.ru',
-	'https://pindie-backend-orbit.nomoredomainswork.ru',
-	'http://pindie-frontend-orbit.nomoredomainswork.ru',
-	'https://pindie-frontend-orbit.nomoredomainswork.ru'
+	'https://yp-frontend.nomorepartiesco.ru'
 ];
 
 function cors(req, res, next) {
