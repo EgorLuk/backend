@@ -1,11 +1,14 @@
 
+// const allowedCors = [
+// 	'http://localhost:3000',
+// 	'http://localhost:3001',
+// 	'https://yp-frontend.nomorepartiesco.ru',
+// 	'http://yp-frontend.nomorepartiesco.ru',
+// 	'https://back.nomorepartiesco.ru',
+// 	'http://back.nomorepartiesco.ru'
+// ];
 const allowedCors = [
-	'http://localhost:3000',
-	'http://localhost:3001',
-	'https://yp-frontend.nomorepartiesco.ru',
-	'http://yp-frontend.nomorepartiesco.ru',
-	'https://back.nomorepartiesco.ru',
-	'http://back.nomorepartiesco.ru'
+	'https://yp-frontend.nomorepartiesco.ru'
 ];
 function cors(req, res, next) {
 	const { origin } = req.headers;
